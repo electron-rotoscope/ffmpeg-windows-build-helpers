@@ -1,6 +1,6 @@
-diff --git a/fftools/ffmpeg.c b/fftools/ffmpeg.c
---- a/fftools/ffmpeg.c
-+++ b/fftools/ffmpeg.c
+diff --git fftools/ffmpeg.c.bak fftools/ffmpeg.c
+--- fftools/ffmpeg.c.bak
++++ fftools/ffmpeg.c
 @@ -1079,7 +1079,6 @@ static void do_video_out(OutputFile *of,
  
      if (!ost->filters_script &&
