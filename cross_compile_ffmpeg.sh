@@ -1915,6 +1915,7 @@ build_ffmpeg() {
   do_git_checkout https://github.com/FFmpeg/FFmpeg.git $output_dir $ffmpeg_git_checkout_version
   cd $output_dir
     apply_patch file://$patch_dir/frei0r_load-shared-libraries-dynamically.diff
+    apply_patch file://$patch_dir/vfr_dur_fix.diff
 
     if [ "$bits_target" = "32" ]; then
       local arch=x86
