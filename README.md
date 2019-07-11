@@ -1,3 +1,7 @@
+forked to fix https://trac.ffmpeg.org/ticket/7977
+=================================================
+
+
 ffmpeg-windows-build-helpers
 ============================
 
